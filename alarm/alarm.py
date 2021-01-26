@@ -13,4 +13,11 @@ while 1==1:
         print("wakeup wakwup....")
         playsound("zvonok_starogo_budilnika.mp3")
         playsound("zvonok_starogo_budilnika.mp3")
-        break
+        snooze=(input("set snooze yes or no"))
+        while 1==1:
+            if snooze=='yes':
+                tsnooze=int(input("enter mitute for snooze"))
+                alarmminute+=tsnooze
+                break
+            else:
+                exit()
