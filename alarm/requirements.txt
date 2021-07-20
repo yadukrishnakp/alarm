@@ -1,0 +1,6 @@
+DateTime==4.3
+image==1.5.33
+Pillow==7.0.0
+playsound==1.2.2
+
+
